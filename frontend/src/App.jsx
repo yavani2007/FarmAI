@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 import Dashboard from "./Dashboard";
 import Scanner from "./Scanner";
-import Home from "./Home";
-import Login from "./Login";
+import Home from "./home";
+import Login from "./login";
 import Analytics from "./Analytics";
 import AgriBuddy from "./AgriBuddy";
 import Sidebar from "./Sidebar";
@@ -14,7 +14,7 @@ import {
   Monitoring,
   Reports,
   About,
-} from "./Pages";
+} from "./pages";
 
 function getPage() {
   const hash = window.location.hash;
