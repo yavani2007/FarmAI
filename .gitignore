@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
+!.env.example
+PlantVillage-Dataset/
+*.db
+*.sqlite3
+uploads/
+dist/
