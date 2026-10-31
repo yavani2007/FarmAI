@@ -1,7 +1,6 @@
 fastapi==0.141.1
 uvicorn==0.53.0
 ultralytics==8.4.163
-transformers==5.17.0
 Pillow==12.3.0
 pydantic==2.13.5
 python-dotenv==1.2.4

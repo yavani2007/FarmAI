@@ -2,7 +2,6 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTa
 from fastapi.middleware.cors import CORSMiddleware
 
 from ultralytics import YOLO
-from transformers import pipeline
 
 from PIL import Image, UnidentifiedImageError
 from datetime import datetime, timezone
@@ -231,10 +230,7 @@ custom_transform = transforms.Compose([
     ),
 ])
 
-disease_classifier = pipeline(
-    "image-classification",
-    model="kimcomehome/plantvillage-vit-leaf-disease",
-)
+
 
 
 CROP_LABEL_PREFIXES = {
